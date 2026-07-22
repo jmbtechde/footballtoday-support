@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support – FootballToday</title>
+<style>
+  :root {
+    --green: #1b7a3d;
+    --dark: #14181c;
+    --gray: #5b6570;
+    --bg: #f5f7f6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 24px;
+  }
+  .card {
+    background: #fff;
+    max-width: 480px;
+    width: 100%;
+    border-radius: 16px;
+    padding: 40px 36px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    text-align: center;
+  }
+  .badge {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 22px;
+    margin: 0 0 8px;
+  }
+  p.sub {
+    color: var(--gray);
+    font-size: 15px;
+    margin: 0 0 28px;
+  }
+  .contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg);
+    border: 1px solid #e3e7e5;
+    border-radius: 10px;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 15px;
+    transition: background 0.15s ease;
+  }
+  .contact:hover {
+    background: #eceff0;
+  }
+  footer {
+    margin-top: 28px;
+    font-size: 13px;
+    color: var(--gray);
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">⚽</div>
+    <h1>Support – FootballToday</h1>
+    <p class="sub">Fragen, Feedback oder ein Problem mit der App? Schreib uns einfach eine E-Mail – wir melden uns so schnell wie möglich.</p>
+    <a class="contact" href="mailto:jmbtech.de@gmail.com">✉️ jmbtech.de@gmail.com</a>
+    <footer>FootballToday App · Support</footer>
+  </div>
+</body>
+</html>
